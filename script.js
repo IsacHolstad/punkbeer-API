@@ -18,10 +18,10 @@ async function results() {
             if(i === 20) {
                 break
             }
-            resultContainer.innerHTML += `<li><h3>${responseJSON[i].name}</h3>
+            resultContainer.innerHTML += `<li>${responseJSON[i].name}</li>
             <img src="${responseJSON[i].image_url}">
-            <h4>${responseJSON[i].tagline}</h4>
-            </li>
+            <p>${responseJSON[i].tagline}</p>
+            
 
             `
         }
