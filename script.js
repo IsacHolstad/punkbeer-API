@@ -15,7 +15,14 @@ async function results() {
         const beerData = responseJSON.data;
         for (let i = 0; i < responseJSON.length; i++){
             console.log(responseJSON[i].name)
+            if(i === 10) {
+                break
+            }
+            resultContainer.innerHTML += `<h3>${responseJSON[i].name}</h3>
+            <img src="${responseJSON[i].image_url}">
+            `
         }
+        
     }
     catch(error){
         resultContainer.innerHTML += `<p>404</p>`;
