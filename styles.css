@@ -3,5 +3,9 @@
     margin: 0;
 }
 img{
-    width: 200px;
+    width: 100px;
+    height: 200px;
+}
+li {
+    list-style-type: none;
 }

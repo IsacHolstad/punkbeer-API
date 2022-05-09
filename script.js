@@ -15,11 +15,14 @@ async function results() {
         const beerData = responseJSON.data;
         for (let i = 0; i < responseJSON.length; i++){
             console.log(responseJSON[i].name)
-            if(i === 10) {
+            if(i === 20) {
                 break
             }
-            resultContainer.innerHTML += `<h3>${responseJSON[i].name}</h3>
+            resultContainer.innerHTML += `<li><h3>${responseJSON[i].name}</h3>
             <img src="${responseJSON[i].image_url}">
+            <h4>${responseJSON[i].tagline}</h4>
+            </li>
+
             `
         }
         
