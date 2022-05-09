@@ -2,10 +2,29 @@
     padding: 0;
     margin: 0;
 }
+.navigation{
+    height: 35px;
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+.p-heading{
+    padding-top: 5px;
+    margin-right: 50px;
+}
+.p-heading:hover{
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
 img{
     width: 100px;
     height: 200px;
 }
 li {
     list-style-type: none;
+}
+.container{
+    margin-left: 50px;
+    margin-top: 50px;
 }
