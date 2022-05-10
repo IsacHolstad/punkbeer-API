@@ -18,9 +18,10 @@ async function results() {
             if(i === 15) {
                 break
             }
-            resultContainer.innerHTML += `<li class="list-of-names"><a href="detail.html?id=${responseJSON[i].name}">${responseJSON[i].name}</li>
+            resultContainer.innerHTML += `<li>
+            <a href="detailbeer.html?id=${responseJSON[i].id}">${responseJSON[i].name}</li>
             <img class="beer-img" src="${responseJSON[i].image_url}">
-            </a>
+            
 
             
 
