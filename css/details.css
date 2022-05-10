@@ -17,13 +17,6 @@
     cursor:pointer;
     
 }
-.beer-img{
-    width: 100px;
-    height: 200px;
-}
-li {
-    list-style-type: none;
-}
 .container{
     margin-top: 50px;
     width: 400px;
