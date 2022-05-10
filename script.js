@@ -19,7 +19,7 @@ async function results() {
                 break
             }
             resultContainer.innerHTML += `<li>
-            <a href="detail.html?id=${responseJSON[i].id}">${responseJSON[i].name}</li>
+            <a href="detail.html?id=${responseJSON[i].id}">${responseJSON[i].name} ${responseJSON[i].first_brewed} ${responseJSON[i].tagline}</li>
             <img class="beer-img" src="${responseJSON[i].image_url}">
             
 
