@@ -20,6 +20,7 @@ async function results() {
             }
             resultContainer.innerHTML += `<li class="list-of-names"><a href="detail.html?id=${responseJSON[i].name}">${responseJSON[i].name}</li>
             <img class="beer-img" src="${responseJSON[i].image_url}">
+            </a>
 
             
 
