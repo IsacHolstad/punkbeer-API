@@ -15,7 +15,7 @@ async function results() {
         const beerData = responseJSON.data;
         for (let i = 0; i < responseJSON.length; i++){
             console.log(responseJSON[i].name)
-            if(i === 20) {
+            if(i === 15) {
                 break
             }
             resultContainer.innerHTML += `<li>${responseJSON[i].name}</li>
