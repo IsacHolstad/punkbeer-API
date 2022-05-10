@@ -17,7 +17,7 @@
     cursor:pointer;
     
 }
-img{
+.beer-img{
     width: 100px;
     height: 200px;
 }
@@ -25,6 +25,18 @@ li {
     list-style-type: none;
 }
 .container{
-    margin-left: 50px;
     margin-top: 50px;
+    width: 400px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+a:hover{
+    text-decoration: underline;
 }
